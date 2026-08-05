@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 /**
- * Difumina el contenido (tabla) y muestra logo + ondas mientras carga.
+ * Difumina el contenido con logo mientras se carga el contenido 
  */
 export default function TableLoadingOverlay({
     active = false,
